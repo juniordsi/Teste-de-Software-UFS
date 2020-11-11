@@ -1,4 +1,4 @@
-# Testes-Automatizados - JUnit
+# Testes Automatizados com JUnit
 Laboratórios desenvolvidos durante a disciplina de Teste de Software
 
 ## Teste de Software
@@ -17,6 +17,9 @@ Em sistemas construídos com uso de linguagens orientadas a objetos, essa unidad
 
 ## JUnit
 JUnit é um framework que facilita o desenvolvimento e execução de testes unitários em código Java.
+
+### Configurando um projeto com o JUnit no Eclipse
+Para construir testes automatizado usando o JUnit no Eclipse, é necessário adicionar a biblioteca ao projeto. Segue um tutorial rápido:
 
 ### REFERÊNCIAS
 https://junit.org/junit5/
