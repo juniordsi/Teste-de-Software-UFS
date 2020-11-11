@@ -22,5 +22,5 @@ JUnit é um framework que facilita o desenvolvimento e execução de testes unit
 Para construir testes automatizado usando o JUnit no Eclipse, é necessário adicionar a biblioteca ao projeto. Segue um tutorial rápido:
 
 ### REFERÊNCIAS
-https://junit.org/junit5/
-https://www.devmedia.com.br/junit-tutorial/1432
+- ![JUnit](https://junit.org/junit5/)
+- ![JUnit Tutorial - Devmedia](https://www.devmedia.com.br/junit-tutorial/1432)
