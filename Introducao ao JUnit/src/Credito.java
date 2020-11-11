@@ -1,7 +1,7 @@
 public class Credito {
 
 	public boolean concedeCredito(int parcelas, boolean confiavel, double salario) {
-		if (parcelas > 12)
+		if (parcelas > 12 || parcelas < 1)
 			return false;
 		else 
 			if (confiavel == false)

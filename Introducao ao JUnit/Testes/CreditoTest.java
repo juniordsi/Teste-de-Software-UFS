@@ -8,31 +8,34 @@ class CreditoTest {
 
 	@Test
 	void testConcede() {
-		//assertTrue(credito.concedeCredito(12, true, 2500));
-		//assertFalse(credito.concedeCredito(12, true, 5001));
-		assertFalse(credito.concedeCredito(12, true, 2500));
 		assertTrue(credito.concedeCredito(12, true, 5001));
-		
-		//assertTrue(credito.concedeCredito(13, true, 2500));
-		assertFalse(credito.concedeCredito(13, true, 5001));
 	}
 	
 	@Test
 	void testNaoConcedePorParcelas() {
-		
+		assertFalse(credito.concedeCredito(13, true, 5001));
+		assertFalse(credito.concedeCredito(0, true, 5001));
+		assertFalse(credito.concedeCredito(-2, true, 5001));
 	}
 	
 	@Test
-	void testConcedeNaoConfiavel() {
-		
+	void testNaoConcedePorNaoConfiavel() {
+		assertFalse(credito.concedeCredito(5, false, 5001));
 	}
 	
 	@Test
-	void testDefinirCredito() {
-		// assertEquals(20000, credito.definirCredito(12, true, 2500));
-		//assertEquals(20000, credito.definirCredito(13, true, 5000));
-		assertEquals(0, credito.definirCredito(13, true, 5000));
+	void testNaoConcedePorSalario() {
+		assertFalse(credito.concedeCredito(12, true, 2500));
+	}
+	
+	@Test
+	void testDefinirCredito2000() {
 		assertEquals(20000, credito.definirCredito(12, true, 5001));
+	}
+	
+	@Test
+	void testDefinirCredito0() {
+		assertEquals(0, credito.definirCredito(13, true, 5000));
 	}
 
 }
