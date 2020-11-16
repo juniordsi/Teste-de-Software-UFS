@@ -23,7 +23,7 @@ class FuncoesMatematicasTest {
 	
 	@Test
 	void testCalcularPotenciaBasePositivaExpoenteNegativo() {
-		assertEquals(0.04, FuncoesMatematicas.calcularPotencia(5, -2), 0.1);
+		assertEquals(0.015625, FuncoesMatematicas.calcularPotencia(4, -3), 0.1);
 	}
 	
 	@Test
@@ -37,9 +37,17 @@ class FuncoesMatematicasTest {
 	}
 	
 	@Test
-	void testCalcularFatorialPositivo() {
+	void testCalcularFatorial0() {
 		assertEquals(1, FuncoesMatematicas.calcularFatorial(0));
+	}
+	
+	@Test
+	void testCalcularFatorial1() {
 		assertEquals(1, FuncoesMatematicas.calcularFatorial(1));
+	}
+	
+	@Test
+	void testCalcularFatorialPositivo() {
 		assertEquals(120, FuncoesMatematicas.calcularFatorial(5));
 	}
 	

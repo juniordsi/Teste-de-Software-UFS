@@ -12,9 +12,17 @@ class CreditoTest {
 	}
 	
 	@Test
-	void testNaoConcedePorParcelas() {
+	void testNaoConcedePorParcelasMaiorQue12() {
 		assertFalse(credito.concedeCredito(13, true, 5001));
+	}
+	
+	@Test
+	void testNaoConcedePorParcelasMenorQue12MaiorQue0() {
 		assertFalse(credito.concedeCredito(0, true, 5001));
+	}
+	
+	@Test
+	void testNaoConcedePorParcelasMenorQue0() {
 		assertFalse(credito.concedeCredito(-2, true, 5001));
 	}
 	
