@@ -16,11 +16,10 @@ A prevenção e o fornecimento de diagnósticos claros para correção de erros,
 ### Porque testar?
 Além de assegurar a qualidade do software, a prática de testes reduz de forma considerável custos, geralmente altos, que são consequências de falhas de software.
 
-## Diferença entre Teste de Software e Debugging 
+### Diferença entre Teste de Software e Debugging 
 
-## Tipos de Teste de Software
-
-### Técnicas de Teste: Caixa Preta X Caixa Branca(Caixa de vidro)
+## Técnicas de Teste
+### Caixa Preta X Caixa Branca(Caixa de vidro)
 
 ## Níveis de Testes
 ### Teste Unitário
