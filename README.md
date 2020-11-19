@@ -11,7 +11,8 @@ A prevenção e o fornecimento de diagnósticos claros para correção de erros,
 ### Porque testar?
 Além de assegurar a qualidade do software, a prática de testes reduz de forma considerável custos, geralmente altos, que são consequências de falhas de software.
 
-### Diferença entre Teste de Software e Debbuging
+### Diferença entre Teste de Software e Depuração(Debbuging)
+A principal diferença entre o teste e a depuração é que o teste é o processo de identificar defeitos do software, enquanto a depuração é o processo de localizar os defeitos identificados.
 
 ## Técnicas de Teste
 ### Teste Funcional - Caixa Preta
