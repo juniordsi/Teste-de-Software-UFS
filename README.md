@@ -14,12 +14,19 @@ Além de assegurar a qualidade do software, a prática de testes reduz de forma 
 ### Diferença entre Teste de Software e Debbuging
 
 ## Técnicas de Teste
-### Caixa Preta
-### Caixa Branca(Caixa de vidro)
+### Teste Funcional - Caixa Preta
+Para utilizar a abordagem funcional para elaborar os casos de testes, é necessário saber o objetivo do código, isto é, quais são os dados de entrada e resultados esperados.
+A fonte utilizada para definir os casos de testes são os requisito, ou seja, o código fonte é abstraído, levando em consideração somente o necessário implementar casos de testes automatizados.
+
+### Teste Estrutural Caixa Branca(Caixa de vidro)
+A implementação do código fonte é levada em consideração para definir os casos de testes.
+Para elaborar casos de testes usando essa abordagem, é levado em consideração o fluxo de execução do código, estruturas condicionais e de controle, loopings, etc.
 
 ## Níveis de Teste
 ### Teste Unitário
 É uma modalidade de testes que se concentra na verificação da menor unidade do projeto de software. É realizado o teste de uma unidade lógica, com uso de dados suficientes para se testar apenas à lógica da unidade em questão.
 Em sistemas construídos com uso de linguagens orientadas a objetos, essa unidade pode ser identificada como um método, uma classe ou mesmo um objeto.
 ### Teste de Integração
+É a fase do teste de software em que módulos são combinados e testados em grupo
 ### Teste de Sistema
+É a fase em que o sistema completo (integrado) é testado num ambiente que simula o ambiente de produção.
