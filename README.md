@@ -18,7 +18,7 @@ Além de assegurar a qualidade do software, a prática de testes reduz de forma 
 Para utilizar a abordagem funcional para elaborar os casos de testes, é necessário saber o objetivo do código, isto é, quais são os dados de entrada e resultados esperados.
 A fonte utilizada para definir os casos de testes são os requisito, ou seja, o código fonte é abstraído, levando em consideração somente o necessário implementar casos de testes automatizados.
 
-### Teste Estrutural Caixa Branca(Caixa de vidro)
+### Teste Estrutural - Caixa Branca(Caixa de vidro)
 A implementação do código fonte é levada em consideração para definir os casos de testes.
 Para elaborar casos de testes usando essa abordagem, é levado em consideração o fluxo de execução do código, estruturas condicionais e de controle, loopings, etc.
 
