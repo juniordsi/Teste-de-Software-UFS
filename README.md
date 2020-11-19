@@ -17,7 +17,7 @@ A principal diferença entre o teste e a depuração é que o teste é o process
 ## Casos de Teste
 ### O que é um caso de teste?
 ### Particionamento de Equivalência
-Separação do domínio de informação em classes representativas, considerando que cada membro da mesma classe é processado de forma equivalente. Em outras palavras, agrupamento de casos de testes em classes de domínio pertencentes ao domínio do problema, onde todos os membros de uma classe possuam características semelhantes.
+Separação do domínio de informação em classes representativas, considerando que cada membro da mesma classe é processado de forma equivalente. Em outras palavras, agrupamento de casos de testes em classes de domínio pertencentes ao domínio de entrada e de saída, onde todos os membros de uma classe possuam características semelhantes.
 Ex: Para testar um método que realiza o cálculo de potência, podemos definir duas, dentre várias, classes de equivalência, sendo elas C1 = {*base positiva e expoente positivo maior que 0*} e C2 = {*base positiva e expoente negativo*}. Como representantes dessas classes, teríamos por exemplo:
 *considere a tupla (x,y) onde x é a base e y é o expoente*
 C1 = {(2, 3), (4, 1)}
