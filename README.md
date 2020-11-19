@@ -14,6 +14,15 @@ Além de assegurar a qualidade do software, a prática de testes reduz de forma 
 ### Diferença entre Teste de Software e Depuração(Debbuging)
 A principal diferença entre o teste e a depuração é que o teste é o processo de identificar defeitos do software, enquanto a depuração é o processo de localizar os defeitos identificados.
 
+## Casos de Teste
+### O que é um caso de teste?
+### Particionamento de Equivalência
+Separação do domínio de informação em classes representativas, considerando que cada membro da mesma classe é processado de forma equivalente. Em outras palavras, agrupamento de casos de testes em classes de domínio pertencentes ao domínio do problema, onde todos os membros de uma classe possuam características semelhantes.
+Ex: Para testar um método que realiza o cálculo de potência, podemos definir duas, dentre várias, classes de equivalência, sendo elas C1 = {*base positiva e expoente positivo maior que 0*} e C2 = {*base positiva e expoente negativo*}. Como representantes dessas classes, teríamos por exemplo:
+*considere a tupla (x,y) onde x é a base e y é o expoente*
+C1 = {(2, 3), (4, 1)}
+C2 = {(5, -2), (12, -3)}
+
 ## Técnicas de Teste
 ### Teste Funcional - Caixa Preta
 Para utilizar a abordagem funcional para elaborar os casos de testes, é necessário saber o objetivo do código, isto é, quais são os dados de entrada e resultados esperados.
