@@ -1,44 +1,55 @@
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 class LargestTest {
 	
 	@Test
-	void nula() {
+	@DisplayName("Entrada nula")
+	void entradaNula() {
 		assertThrows(Exception.class, () -> {
 			Largest.largest(null);
 		});
 	}
 	
 	@Test
+	@DisplayName("Lista vazia")
 	void listaVazia() {
 		int[] list = {};
-		assertThrows(Exception.class, () -> {
-			Largest.largest(list);
-		});
+		assertNotEquals(0 ,Largest.largest(list));
 	}
 	
 	@Test
+	@DisplayName("Lista unitária")
 	void listaUnitaria() {
-		int[] list = {0};
-		assertEquals(0, Largest.largest(list));
-	}
-	
-	
-	@Test
-	void listaComDoisElementos() {
-		int[] list = {0,2};
-		assertEquals(2,Largest.largest(list));
+		int[] list = {1};
+		assertEquals(1, Largest.largest(list));
 	}
 	
 	@Test
-	void listaComNElmentosInteiros() {
-		int[] list = {-1,0,2,1};
-		assertEquals(2, Largest.largest(list));
+	@DisplayName("Lista ordenada - Dois números inteiros")
+	void listaComDoisElementosOrdenados() {
+		int[] list = {0,1};
+		assertEquals(1,Largest.largest(list));
 	}
 	
 	@Test
+	@DisplayName("Lista ordenada - N números inteiros")
+	void listaComNElementosOrdenados() {
+		int[] list = {0,1,2,3};
+		assertEquals(1,Largest.largest(list));
+	}
+	
+	@Test
+	@DisplayName("Lista não ordenada - Dois números inteiros")
+	void listaComDoisElementosNaoOrdenados() {
+		int[] list = {1,0};
+		assertEquals(1,Largest.largest(list));
+	}
+
+	@Test
+	@DisplayName("Lista com duplicidade de elementos")
 	void listaComDuplicidadeDeElementos() {
 		int[] list = {-1,2,1,1,2};
 		assertEquals(2, Largest.largest(list));
