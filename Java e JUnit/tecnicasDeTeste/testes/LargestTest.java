@@ -38,7 +38,7 @@ class LargestTest {
 	@DisplayName("Lista ordenada - N números inteiros")
 	void listaComNElementosOrdenados() {
 		int[] list = {0,1,2,3};
-		assertEquals(1,Largest.largest(list));
+		assertEquals(3,Largest.largest(list));
 	}
 	
 	@Test
