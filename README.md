@@ -1,5 +1,5 @@
 # Testes Automatizados
-Laboratórios desenvolvidos durante a disciplina de Teste de Software
+Laboratórios desenvolvidos durante a disciplina de Teste de Software do Departamento de Computação, Decomp, da Universidade Federal de Sergipe, no período 2020.1.
 
 ## Teste de Software
 A prevenção e o fornecimento de diagnósticos claros para correção de erros, e a identificação dos sintomas provocados por bugs são os principais objetivos dos testes de software. 
