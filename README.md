@@ -1,4 +1,11 @@
 # Testes Automatizados
+![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java)
+![JUnit](https://img.shields.io/badge/-JUnit-green?style=flat-square&logo=java)
+![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
+
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=juniordsi&repo=Teste-de-Software-UFS&show_owner=true&show_icons=true&theme=dark&langs_count=10)](https://github.com/anuraghazra/github-readme-stats)
+
+
 Laboratórios desenvolvidos durante a disciplina de Teste de Software do Departamento de Computação, Dcomp, da Universidade Federal de Sergipe, no período 2020.1.
 
 ## Teste de Software
